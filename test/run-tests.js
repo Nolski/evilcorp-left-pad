@@ -194,7 +194,7 @@ test("property-based invariants", () => {
       : leftPad(baseValue, lenValue);
 
     const info = computePadInfo(baseValue, lenValue, padValue, hasPadArg);
-    assert.strictEqual(result.slice(-info.base.length), info.base);
+    assert.ok(result.endsWith(info.base));
 
     if (info.padCount <= 0) {
       assert.strictEqual(result, info.base);
