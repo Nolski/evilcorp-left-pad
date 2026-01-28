@@ -1,0 +1,11 @@
+{
+  "name": "left-pad",
+  "version": "1.3.0",
+  "description": "Clean room left pad implementation",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node test/run-tests.js"
+  },
+  "license": "MCO-0"
+}
